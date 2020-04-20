@@ -1,0 +1,21 @@
+{
+    "appName": "audvidtranscription",
+    "roleName": "pinpointLambdaRole3874ae9e",
+    "cloudformationPolicyName": "cloudformationPolicy3874ae9e",
+    "cloudWatchPolicyName": "cloudWatchPolicy3874ae9e",
+    "pinpointPolicyName": "pinpointPolicy3874ae9e",
+    "authPolicyName": "pinpoint_amplify_3874ae9e",
+    "unauthPolicyName": "pinpoint_amplify_3874ae9e",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

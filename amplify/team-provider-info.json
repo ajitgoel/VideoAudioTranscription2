@@ -1,0 +1,31 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-audvidtranscription-dev-190158-authRole",
+            "UnauthRoleArn": "arn:aws:iam::529627678433:role/amplify-audvidtranscription-dev-190158-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::529627678433:role/amplify-audvidtranscription-dev-190158-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-audvidtranscription-dev-190158-deployment",
+            "UnauthRoleName": "amplify-audvidtranscription-dev-190158-unauthRole",
+            "StackName": "amplify-audvidtranscription-dev-190158",
+            "StackId": "arn:aws:cloudformation:us-east-1:529627678433:stack/amplify-audvidtranscription-dev-190158/29d4d550-829a-11ea-8569-0e91a2a31d14",
+            "AmplifyAppId": "d2g0gvn3glp0ll"
+        },
+        "categories": {
+            "function": {
+                "audvidtranscriptionf4341655PreSignup": {
+                    "DOMAINBLACKLIST": ""
+                }
+            },
+            "auth": {
+                "audvidtranscriptionf4341655": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2g0gvn3glp0ll",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

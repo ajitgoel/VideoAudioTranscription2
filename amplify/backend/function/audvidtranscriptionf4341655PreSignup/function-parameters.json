@@ -1,0 +1,16 @@
+{
+    "trigger": true,
+    "modules": [
+        "email-filter-blacklist"
+    ],
+    "parentResource": "audvidtranscriptionf4341655",
+    "functionName": "audvidtranscriptionf4341655PreSignup",
+    "resourceName": "audvidtranscriptionf4341655PreSignup",
+    "parentStack": "auth",
+    "triggerEnvs": [],
+    "triggerDir": "C:\\Users\\AjitGoel\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/PreSignup",
+    "triggerTemplate": "PreSignup.json.ejs",
+    "roleName": "audvidtranscriptionf4341655PreSignup",
+    "skipEdit": true,
+    "DOMAINBLACKLIST": ""
+}
