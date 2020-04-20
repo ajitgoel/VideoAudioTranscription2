@@ -138,6 +138,9 @@ amplify publish
 amplify status
 npm install --save react-router-dom @aws-amplify/api 
 
-
 Testing your API: amplify console api
 to fix linting errors directly: eslint --fix src/ 
+
+#### Pinpoint URL to track events:
+https://us-east-1.console.aws.amazon.com/pinpoint/home/?region=us-east-1#/apps/ceec2239e1fb432390d47453a87bda38/analytics/overview
+Hosted application: https://dev.d2g0gvn3glp0ll.amplifyapp.com/
